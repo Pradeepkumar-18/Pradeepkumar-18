@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Pradeep Kumar S - building calm, useful software">
+  <style>
+    .name { font: 400 64px Newsreader, Fraunces, Georgia, 'Times New Roman', serif; fill: #1C1F1E; letter-spacing: -0.5px; }
+    .tag  { font: 400 22px 'Plus Jakarta Sans', Inter, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #8C877E; }
+    .meta { font: 400 14px 'JetBrains Mono', Consolas, 'Courier New', monospace; fill: #8C877E; letter-spacing: 2px; }
+    .pulse { fill: none; stroke: #2D544C; stroke-width: 2.25; stroke-linecap: round; stroke-linejoin: round;
+             stroke-dasharray: 1400; stroke-dashoffset: 1400; animation: draw 3.2s ease-out 0.4s forwards; }
+    .dot { fill: #2D544C; opacity: 0; animation: fade 1s ease-out 3.4s forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @keyframes fade { to { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .pulse { animation: none; stroke-dashoffset: 0; } .dot { animation: none; opacity: 1; } }
+  </style>
+  <rect width="1200" height="300" rx="16" fill="#F7F5F1"/>
+  <text x="72" y="74" class="meta">FULL-STACK DEVELOPER · INDIA</text>
+  <text x="72" y="150" class="name">Pradeep Kumar S</text>
+  <text x="72" y="192" class="tag">Building calm, useful software with React, NestJS and AI agents.</text>
+  <line x1="72" y1="236" x2="1128" y2="236" stroke="#E8E4DC" stroke-width="1"/>
+  <path class="pulse" d="M72 236 H360 l14 -10 l12 18 l16 -46 l18 64 l14 -36 l10 10 H640 l10 -8 l10 14 l12 -28 l14 36 l10 -20 l8 6 H900 l8 -6 l8 10 l10 -16 l10 18 l8 -8 H1128"/>
+  <circle class="dot" cx="1128" cy="236" r="5"/>
+</svg>
