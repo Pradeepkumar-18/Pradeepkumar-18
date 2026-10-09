@@ -51,8 +51,8 @@ buying the last item, the pipeline that turns a scanned invoice into clean data 
 
 ### `~/now`
 
-> 🔨 &nbsp;Shipping a **flash-sale-proof e-commerce backend** in Java & Spring Boot
-> 🤖 &nbsp;Building **AI agents** with RAG, memory and MCP tool calling
+> 🔨 &nbsp;Shipping a **flash-sale-proof e-commerce backend** in Java & Spring Boot<br>
+> 🤖 &nbsp;Building **AI agents** with RAG, memory and MCP tool calling<br>
 > 📚 &nbsp;Practising **system design**: HLD/LLD, caching and concurrency control
 
 <br />
