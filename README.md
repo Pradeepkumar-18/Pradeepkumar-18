@@ -1,116 +1,166 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1C3530,100:2D544C&height=210&section=header&text=Pradeep%20Kumar%20S&fontSize=48&fontColor=EDEAE4&fontAlignY=36&desc=Full-Stack%20Developer%20%7C%20Backend%20%26%20Microservices%20%7C%20AI%20Builder&descSize=18&descAlignY=58" width="100%" />
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=3000&pause=900&color=2D544C&center=true&vCenter=true&width=620&lines=Building+backend+systems+that+scale;Java+%C2%B7+Spring+Boot+%C2%B7+NestJS+%C2%B7+React;Kafka%2C+Redis+%26+event-driven+microservices;AI+pipelines+with+LangChain%2C+RAG+%26+MCP" alt="Typing intro" />
-</p>
+<img src="https://capsule-render.vercel.app/api?type=transparent&height=120&text=Pradeep%20Kumar%20S&fontSize=56&fontColor=2D9C86&fontAlignY=50&animation=fadeIn" width="100%" />
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Pradeepkumar-18&label=Profile%20views&color=2D544C&style=flat" />
-  <img src="https://img.shields.io/github/followers/Pradeepkumar-18?label=Followers&style=flat&color=2D544C" />
-  <a href="https://linkedin.com/in/pradeepkumar1803"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/📍-Sivakasi,%20India-2D544C?style=flat" />
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=800&color=2D9C86&center=true&vCenter=true&width=640&lines=%3E+backend-leaning+full-stack+developer;%3E+java+%C2%B7+spring+boot+%C2%B7+nestjs+%C2%B7+react;%3E+kafka+%C2%B7+redis+%C2%B7+microservices;%3E+ai+pipelines+with+langchain+%26+mcp" alt="Typing intro" />
 
----
+<br />
 
-## 👨‍💻 About Me
+<a href="https://linkedin.com/in/pradeepkumar1803"><img src="https://img.shields.io/badge/linkedin-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
+<a href="mailto:pradeepkumar18003@gmail.com"><img src="https://img.shields.io/badge/email-1C3530?style=flat-square&logo=gmail&logoColor=white" /></a>
+<a href="https://pradeep-portfolio-murex-tau.vercel.app"><img src="https://img.shields.io/badge/portfolio-1C3530?style=flat-square&logo=vercel&logoColor=white" /></a>
+<img src="https://komarev.com/ghpvc/?username=Pradeepkumar-18&label=views&color=1C3530&style=flat-square" />
 
-```yaml
-name: Pradeep Kumar S
-role: Full-Stack Developer (backend-leaning)
-company: Skillmine Technology
-experience: 1.5+ years
-location: Sivakasi, Tamil Nadu, India
-day_job: AI document pipelines with OCR, Gemini, LangChain & Kafka
-side_quest: Java, Spring Boot & distributed systems
-loves: concurrency problems, clean data models, systems that scale
-open_to: Backend / Full-Stack roles · Bengaluru
+</div>
+
+<br />
+
+<table>
+<tr>
+<td width="55%" valign="top">
+
+### `~/about`
+
+```ts
+const pradeep = {
+  role:       "Full-Stack Developer",
+  company:    "Skillmine Technology",
+  experience: "1.5+ years",
+  based:      "Sivakasi, India",
+  dayJob:     "AI document pipelines (OCR · Gemini · LangChain · Kafka)",
+  sideQuest:  "Java, Spring Boot & distributed systems",
+  openTo:     ["Backend", "Full-Stack", "Bengaluru"],
+};
 ```
 
-> I enjoy the parts of a system people never see: the queue that absorbs a traffic spike, the lock that stops two people
-> buying the last item, and the pipeline that turns a scanned invoice into clean data in seconds.
+I enjoy the parts of a system people never see: the queue that absorbs a traffic spike, the lock that stops two people
+buying the last item, the pipeline that turns a scanned invoice into clean data in seconds.
 
----
+</td>
+<td width="45%" valign="top">
 
-## 📊 GitHub Stats
+### `~/stats`
+
+<img src="https://github-readme-stats.vercel.app/api?username=Pradeepkumar-18&show_icons=true&hide_border=true&hide_title=true&bg_color=00000000&icon_color=2D9C86&text_color=8C877E&rank_icon=github" width="100%" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pradeepkumar-18&layout=compact&langs_count=6&hide_border=true&hide_title=true&bg_color=00000000&text_color=8C877E" width="100%" />
+
+</td>
+</tr>
+</table>
+
+### `~/now`
+
+> 🔨 &nbsp;Shipping a **flash-sale-proof e-commerce backend** in Java & Spring Boot
+> 🤖 &nbsp;Building **AI agents** with RAG, memory and MCP tool calling
+> 📚 &nbsp;Practising **system design**: HLD/LLD, caching and concurrency control
+
+<br />
+
+### `~/projects`
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🛒 E-commerce Order & Inventory**  
+<sub>`in progress`</sub>
+
+Microservices for flash-sale traffic: no overselling (Redis locks + optimistic locking), Saga checkout over Kafka, automatic payment rollback.
+
+<sub>Java · Spring Boot · Kafka · Redis · PostgreSQL · K8s</sub>
+
+</td>
+<td width="50%" valign="top">
+
+**🧠 AI Agent Platform**  
+<sub>`rag` `mcp`</sub>
+
+Agents with their own knowledge base, conversational memory and tools: RAG over a vector store plus MCP tool calling.
+
+<sub>NestJS · React · LangChain · MCP · Vector DB</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**🤖 [Multi-Agent Coding Platform](https://github.com/Pradeepkumar-18/Multi-agent-coding-platform)**  
+<sub>`langgraph`</sub>
+
+Manager → Planner → Developer → Reviewer agents turn a coding request into reviewed code, with a risk report at the end.
+
+<sub>NestJS · LangGraph · TypeScript</sub>
+
+</td>
+<td width="50%" valign="top">
+
+**🏨 [Staywise](https://github.com/Pradeepkumar-18/hotel-Management)**  
+<sub>`booking engine`</sub>
+
+Hotel booking and operations with zero overbooking across multi-night stays, the server as the single source of truth, and full audit trails.
+
+<sub>NestJS · React · MongoDB</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**🧩 [Agent Skills](https://github.com/Pradeepkumar-18/Agent-Skills-Md)**  
+<sub>`ai tooling`</sub>
+
+Reusable `SKILL.md` packages that teach Claude Code, Codex and Gemini CLI my frontend conventions.
+
+<sub>Markdown · PowerShell</sub>
+
+</td>
+<td width="50%" valign="top">
+
+**🎨 [Canvas Builder](https://github.com/Pradeepkumar-18/canvas-builder)**  
+<sub>[`live demo ↗`](https://canvas-builder-beta.vercel.app)</sub>
+
+A drag-and-drop page builder with sortable blocks.
+
+<sub>React · TypeScript · dnd-kit</sub>
+
+</td>
+</tr>
+</table>
+
+### `~/experience`
+
+```diff
++ Junior Software Developer · Skillmine Technology            Jul 2025 → now
+  - own the Document Management System backend (NestJS · MongoDB)
+  - AI pipeline: 1m30s → 20s per document (~80% faster)
+  - Kafka + Redis event-driven workflows · automated deployments
+
++ Software Developer Trainee · Skillmine Technology            Jan 2025 → Jul 2025
+  - role-based access control & credit management modules
+```
+
+### `~/stack`
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Pradeepkumar-18&show_icons=true&hide_border=true&bg_color=141716&title_color=7FB3A6&icon_color=7FB3A6&text_color=EDEAE4&rank_icon=github" />
-  <img height="170" src="https://streak-stats.demolab.com?user=Pradeepkumar-18&hide_border=true&background=141716&ring=7FB3A6&fire=C98A3E&currStreakLabel=7FB3A6&sideLabels=EDEAE4&currStreakNum=EDEAE4&sideNums=EDEAE4&dates=9A958C&stroke=2A2F2D" />
+  <img src="https://skillicons.dev/icons?i=java,spring,nestjs,nodejs,ts,react,remix,tailwind,postgres,mongodb,redis,kafka,docker,kubernetes,aws,git,postman,idea&perline=9&theme=dark" />
 </p>
-<p align="center">
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pradeepkumar-18&layout=compact&langs_count=8&hide_border=true&bg_color=141716&title_color=7FB3A6&text_color=EDEAE4" />
-</p>
-
----
-
-## 💼 Experience
-
-| Role | Company | Period | Highlights |
-|---|---|---|---|
-| **Junior Software Developer** | Skillmine Technology | Jul 2025 – Present | Own the Document Management System backend · AI pipeline cut processing time **~80%** · Kafka & Redis event-driven flows |
-| **Software Developer Trainee** | Skillmine Technology | Jan 2025 – Jul 2025 | Role-based access control & credit management modules |
-
----
-
-## 🛠️ Tech Stack
-
-**Backend**  
-<img src="https://skillicons.dev/icons?i=java,spring,nestjs,nodejs&theme=dark" />
-
-**Frontend**  
-<img src="https://skillicons.dev/icons?i=ts,js,react,remix,tailwind,html,css&theme=dark" />
-
-**Data & Messaging**  
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,kafka&theme=dark" />
-
-**Cloud & DevOps**  
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,git,github,postman,idea,vscode&theme=dark" />
-
-**AI & LLM**  
-![LangChain](https://img.shields.io/badge/LangChain-1C3530?style=for-the-badge&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3530?style=for-the-badge&logo=langgraph&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-1C3530?style=for-the-badge&logo=googlegemini&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-1C3530?style=for-the-badge)
-![MCP](https://img.shields.io/badge/MCP-1C3530?style=for-the-badge&logo=modelcontextprotocol&logoColor=white)
-![Vector DB](https://img.shields.io/badge/Vector_DB-1C3530?style=for-the-badge)
-
----
-
-## 🚀 Projects
-
-| Project | What it does | Tech | Link |
-|---|---|---|---|
-| **E-commerce Order & Inventory Platform** 🚧 | Microservices for flash-sale traffic: no overselling (Redis locks + optimistic locking), Saga checkout over Kafka, automatic payment rollback | Java · Spring Boot · Kafka · Redis · PostgreSQL · K8s | In progress |
-| **AI Agent Platform** | Agents with their own knowledge base, memory and tools, using RAG and MCP tool calling | NestJS · React · LangChain · MCP · Vector DB | — |
-| **Multi-Agent Coding Platform** | LangGraph pipeline (Manager → Planner → Developer → Reviewer) that turns a request into reviewed code | NestJS · LangGraph | [![View](https://img.shields.io/badge/View-2D544C?style=flat&logo=github)](https://github.com/Pradeepkumar-18/Multi-agent-coding-platform) |
-| **Staywise** | Hotel booking engine with zero overbooking across multi-night stays, plus full audit trails | NestJS · React · MongoDB | [![View](https://img.shields.io/badge/View-2D544C?style=flat&logo=github)](https://github.com/Pradeepkumar-18/hotel-Management) |
-| **Agent Skills** | Reusable `SKILL.md` packages for Claude Code, Codex & Gemini CLI | Markdown | [![View](https://img.shields.io/badge/View-2D544C?style=flat&logo=github)](https://github.com/Pradeepkumar-18/Agent-Skills-Md) |
-| **Canvas Builder** | Drag-and-drop page builder | React · dnd-kit | [![Live](https://img.shields.io/badge/Live-2D544C?style=flat&logo=vercel)](https://canvas-builder-beta.vercel.app) |
-
----
-
-## 🌱 Currently Exploring
-
-`🧠 System Design (HLD/LLD)` `🔒 Concurrency Control` `☁️ Spring Cloud` `📨 Saga & Event Sourcing` `🤖 Agentic Workflows` `🔌 MCP Servers`
-
----
-
-## 🤝 Connect With Me
-
-<p>
-  <a href="https://linkedin.com/in/pradeepkumar1803"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:pradeepkumar18003@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://pradeep-portfolio-murex-tau.vercel.app"><img src="https://img.shields.io/badge/Portfolio-2D544C?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-  <a href="https://github.com/Pradeepkumar-18"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-</p>
-
----
-
-<p align="center"><i>"Good systems are quiet. They just keep working, even when everything around them is busy."</i></p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2D544C,100:1C3530&height=110&section=footer" width="100%" />
+  <img src="https://img.shields.io/badge/LangChain-1C3530?style=flat-square&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangGraph-1C3530?style=flat-square&logo=langgraph&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gemini-1C3530?style=flat-square&logo=googlegemini&logoColor=white" />
+  <img src="https://img.shields.io/badge/MCP-1C3530?style=flat-square&logo=modelcontextprotocol&logoColor=white" />
+  <img src="https://img.shields.io/badge/RAG-1C3530?style=flat-square" />
+  <img src="https://img.shields.io/badge/Vector_DB-1C3530?style=flat-square" />
 </p>
+
+<br />
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=Pradeepkumar-18&hide_border=true&background=00000000&ring=2D9C86&fire=C98A3E&currStreakLabel=2D9C86&sideLabels=8C877E&currStreakNum=8C877E&sideNums=8C877E&dates=8C877E&stroke=8C877E" />
+
+<sub><i>Good systems are quiet. They just keep working, even when everything around them is busy.</i></sub>
+
+</div>
