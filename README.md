@@ -1,72 +1,120 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
-  <img alt="Pradeep Kumar S, building calm, useful software" src="./assets/header-light.svg">
+  <img alt="Pradeep Kumar S, full-stack developer" src="./assets/header-light.svg">
 </picture>
 
 ### Hi, I'm Pradeep.
 
-I build full-stack products that feel quiet to use: fewer alerts, clearer screens, and software that respects your attention.
-Most days that means **TypeScript end to end**, with React on the front, NestJS behind it and MongoDB underneath.
-Lately I've also been exploring how **AI agents** can plan, write and review code alongside people.
+I'm a full-stack developer at **Skillmine Technology**, where I own the backend of an AI-powered **Document Management System** used in production every day.
+My work sits where backend engineering meets AI: OCR and LLM pipelines, event-driven services on **Kafka** and **Redis**, and data models that stay fast as they grow.
+Right now I'm going deep on **Java, Spring Boot and distributed systems** by building a microservices e-commerce platform from scratch.
+
+<sub>📍 Sivakasi, Tamil Nadu · Open to roles in **Bengaluru**</sub>
+
+---
+
+### Impact so far
+
+| | |
+|---|---|
+| **~80% faster** | Cut document processing from **1 min 30 s to 20 s** per document with an OCR + Gemini + LangChain pipeline |
+| **300–500 docs/day** | Processed by the Document Management System backend I own end to end, built for 500 users |
+| **Automated releases** | Set up automated deployment for the project, removing the manual release steps |
+| **1.5+ years** | Shipping production backend systems for enterprise clients |
+
+---
+
+### Experience
+
+**Junior Software Developer** · Skillmine Technology  
+<sub>July 2025 – Present</sub>
+
+- **Own the complete backend** of the Document Management System (NestJS, TypeScript, MongoDB), from data model to deployment.
+- Built an **AI document pipeline** (OCR → Gemini → LangChain) for invoice processing and compliance checks, cutting processing time by about 80%.
+- Designed **event-driven processing** on Apache Kafka and Redis for asynchronous, high-throughput workflows.
+- **Redesigned indexes and decoupled the data model**, which made the slow queries noticeably faster.
+- Integrated **multiple cloud storage providers** with real-time usage monitoring, and built a smart web scraper that keeps reference data up to date automatically.
+- Prototyped an **AI-agent system that takes an app from a single prompt to a deployed build**.
+- Mentor a junior developer on backend development and engineering practice.
+
+**Software Developer Trainee** · Skillmine Technology  
+<sub>Jan 2025 – July 2025</sub>
+
+- Built **role-based access control** and **credit management** modules for a Student Management System using REST APIs and a relational data model.
 
 ---
 
 ### Now · October 2026
 
-- Building **Cadence**, a calm tracker for habits, tasks, goals and money
-- Wiring a **multi-agent coding pipeline** with LangGraph: manager → planner → developer → reviewer
-- Writing reusable **Agent Skills** so AI coding tools follow my frontend conventions
-
-<sub>Updated monthly, in the spirit of <a href="https://nownownow.com/about">/now pages</a>.</sub>
+- Building a **scalable e-commerce order & inventory platform** in Java 17 and Spring Boot
+- Practising **system design** in depth: HLD/LLD, caching strategies and concurrency control
+- Looking for **backend or full-stack roles in Bengaluru**
 
 ---
 
-### Things I've made
+### Featured projects
 
-**Cadence** · <sub>React · TypeScript · NestJS · MongoDB · Docker</sub>  
-Most productivity apps shout at you. Cadence doesn't. It's a personal rhythm tracker for daily habits, tasks, sprint goals and spending,
-with editorial typography, offline-first sync, and a single-port monolith that serves both the SPA and the API.  
-<sub>Private for now · public soon</sub>
+**Scalable E-commerce Order & Inventory Platform** · <sub>In progress</sub>  
+<sub>Java 17 · Spring Boot · Spring Cloud Gateway · JPA/Hibernate · PostgreSQL · Redis · Kafka · Docker · Kubernetes · AWS</sub>
 
-**Multi-Agent Coding Platform** · <sub>NestJS · LangGraph · TypeScript</sub>  
-A coding request goes in, a pipeline of agents works on it, and reviewed code comes out. Each agent is a node in a LangGraph workflow
-(Manager, Planner, Developer, Reviewer, Finalizer) passing one strongly typed shared state forward, with a review score and a list of risks at the end.  
-→ [Code](https://github.com/Pradeepkumar-18/Multi-agent-coding-platform)
+Five microservices (Product, Inventory, Order, Payment, Notification) behind Spring Cloud Gateway, with service discovery, load balancing and rate limiting built for flash-sale traffic.
 
-**Staywise** · <sub>NestJS · React · MongoDB replica set</sub>  
-A hotel booking and operations platform built as a modular monolith. It guarantees zero overbooking across multi-night stays,
-keeps the server as the single source of truth, and records an end-to-end audit trail.  
-→ [Code](https://github.com/Pradeepkumar-18/hotel-Management)
+- **No overselling under load:** Redis distributed locks plus JPA optimistic locking, verified with JMeter load tests
+- **Saga-based checkout:** the order → payment → inventory flow runs on Kafka events, and failed payments roll back through compensating transactions
+- **Fast catalogue reads:** a cache-aside strategy on Redis, with entries expiring by TTL
+- Strategy, Factory and Observer patterns; services containerised and deployed to Kubernetes on AWS EC2
 
-**Agent Skills** · <sub>Markdown · PowerShell</sub>  
-Reusable `SKILL.md` packages for Claude Code, Codex CLI, Gemini CLI and Antigravity. The first one, `ui-architect`, keeps React + Tailwind
-codebases consistent by reusing components before writing new ones.  
-→ [Code](https://github.com/Pradeepkumar-18/Agent-Skills-Md)
+**Personalized AI Agent Platform with RAG & MCP**  
+<sub>React · NestJS · MongoDB · Gemini · LangChain · MCP · Vector DB</sub>
+
+Agents with their own knowledge bases, conversational memory and tool access, so answers draw on the user's own context.
+
+- A full **RAG pipeline**: ingestion → embeddings → vector store → semantic search
+- **MCP-based tool calling** and external API integrations, orchestrated behind secure backend services
+
+**Multi-Agent Coding Platform** · [Code](https://github.com/Pradeepkumar-18/Multi-agent-coding-platform)  
+<sub>NestJS · LangGraph · TypeScript</sub>
+
+A LangGraph pipeline (Manager → Planner → Developer → Reviewer → Finalizer) that turns a coding request into reviewed code. All five agents share one strongly typed state, and the run ends with a review score and a list of risks.
+
+**Staywise: Hotel Booking & Operations Platform** · [Code](https://github.com/Pradeepkumar-18/hotel-Management)  
+<sub>NestJS · React · MongoDB replica set</sub>
+
+A modular monolith that guarantees **zero overbooking across multi-night stays**, keeps the server as the single source of truth, and records an end-to-end audit trail.
 
 <details>
-<summary><b>Smaller experiments</b></summary>
+<summary><b>More things I've built</b></summary>
 <br>
 
-- **Canvas Builder**: a drag-and-drop page canvas built with React and dnd-kit. [Live](https://canvas-builder-beta.vercel.app) · [Code](https://github.com/Pradeepkumar-18/canvas-builder)
-- **Portfolio**: my personal site. [Live](https://pradeep-portfolio-murex-tau.vercel.app)
+- **[Agent Skills](https://github.com/Pradeepkumar-18/Agent-Skills-Md)**: reusable `SKILL.md` packages for Claude Code, Codex CLI and Gemini CLI that keep React + Tailwind codebases consistent
+- **Cadence**: a personal habits, tasks, goals and budget tracker (React, NestJS, MongoDB, Docker), deployed as a single-port monolith
+- **[Canvas Builder](https://github.com/Pradeepkumar-18/canvas-builder)**: a drag-and-drop page canvas in React and dnd-kit. [Live](https://canvas-builder-beta.vercel.app)
 
 </details>
 
 ---
 
-### How I like to build
-
-1. **Calm over clever.** If a screen needs a red banner to be understood, the design is wrong.
-2. **Types are documentation.** Strict TypeScript from the database schema to the button.
-3. **Ship the monolith first.** Split it later, if ever.
-4. **Let agents do the typing, not the thinking.** AI speeds up the work, but the judgement stays with me.
-
----
-
 ### Toolbox
 
-`TypeScript` · `React` · `NestJS` · `Node.js` · `MongoDB` · `Tailwind CSS` · `Vite` · `Docker` · `LangGraph` · `Claude Code`
+**Backend**  `Java 17` `Spring Boot` `Spring Cloud Gateway` `Spring Data JPA` `Hibernate` `Node.js` `NestJS` `REST APIs` `Microservices`  
+**Frontend**  `TypeScript` `JavaScript` `React` `Remix` `Tailwind CSS` `HTML5` `CSS3`  
+**Data**  `PostgreSQL` `MongoDB` `Redis` `Indexing & query optimisation` `Data modelling`  
+**Messaging**  `Apache Kafka` `Event-driven architecture` `Saga pattern`  
+**Cloud & DevOps**  `Docker` `Kubernetes` `AWS EC2` `CI/CD` `Git`  
+**AI & LLM**  `LangChain` `LangGraph` `Gemini API` `RAG` `MCP` `Vector databases` `AI agents` `OCR`  
+**Practice**  `System design (HLD/LLD)` `Design patterns` `DSA` `Concurrency control` `JMeter` `Swagger` `Agile/Scrum`
 
 ---
 
-<sub>Say hello → <a href="https://pradeep-portfolio-murex-tau.vercel.app">Portfolio</a> · or open an issue on any repo. I read them all.</sub>
+### Education
+
+**B.E. Electronics and Communication Engineering** · Ramco Institute of Technology, Rajapalayam  
+<sub>2024 · CGPA 7.95</sub>
+
+---
+
+### Let's talk
+
+Hiring for backend or full-stack work, or building something with AI agents? I'd like to hear about it.
+
+[LinkedIn](https://linkedin.com/in/pradeepkumar1803) · [Email](mailto:pradeepkumar18003@gmail.com) · [Portfolio](https://pradeep-portfolio-murex-tau.vercel.app)
